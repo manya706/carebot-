@@ -12,23 +12,23 @@ To use CAREBOT, simply enter your symptoms in the text box provided and click th
 ## Benefits
 CAREBOT provides a range of benefits to patients, doctors, and healthcare providers, including:
 
-Quick Diagnosis: CAREBOT offers a fast and accurate diagnosis of your illness, allowing you to receive treatment sooner.
-Improved Accuracy: CAREBOT uses advanced algorithms and machine learning technology to provide accurate diagnoses and prescription checks, improving patient outcomes and reducing the risk of adverse reactions.
-Reduced Healthcare Costs: By providing accurate diagnoses and prescription checks, CAREBOT reduces the need for costly and time-consuming doctor visits, saving patients and healthcare providers time and money.
-Enhanced Patient Experience: CAREBOT offers a user-friendly interface that allows patients to enter their symptoms and receive a diagnosis quickly and easily, enhancing the patient experience and improving overall satisfaction.
+* Quick Diagnosis: CAREBOT offers a fast and accurate diagnosis of your illness, allowing you to receive treatment sooner.
+* Improved Accuracy: CAREBOT uses advanced algorithms and machine learning technology to provide accurate diagnoses and prescription checks, improving patient outcomes and reducing the risk of adverse reactions.
+* Reduced Healthcare Costs: By providing accurate diagnoses and prescription checks, CAREBOT reduces the need for costly and time-consuming doctor visits, saving patients and healthcare providers time and money.
+* Enhanced Patient Experience: CAREBOT offers a user-friendly interface that allows patients to enter their symptoms and receive a diagnosis quickly and easily, enhancing the patient experience and improving overall satisfaction.
 
 ## Future Developments
 CAREBOT is continually being updated and improved to provide even more accurate diagnoses and prescription checks. Future developments may include:
 
-Voice Recognition: CAREBOT may soon be able to recognize voice inputs, allowing patients to simply describe their symptoms aloud rather than typing them in.
-Expanded Symptom Analysis: CAREBOT may expand its symptom analysis capabilities to include a broader range of illnesses and conditions, allowing for even more accurate diagnoses.
-Integration with Electronic Health Records: CAREBOT may soon be able to integrate with electronic health records, allowing doctors and healthcare providers to access patient data and make more informed treatment decisions.
+* Voice Recognition: CAREBOT may soon be able to recognize voice inputs, allowing patients to simply describe their symptoms aloud rather than typing them in.
+* Expanded Symptom Analysis: CAREBOT may expand its symptom analysis capabilities to include a broader range of illnesses and conditions, allowing for even more accurate diagnoses.
+* Integration with Electronic Health Records: CAREBOT may soon be able to integrate with electronic health records, allowing doctors and healthcare providers to access patient data and make more informed treatment decisions.
 
 ## Conclusion
 CAREBOT is an AI-powered diagnostic system that offers quick, accurate diagnoses and prescription checks, improving patient outcomes and reducing healthcare costs. With its advanced algorithms and user-friendly interface, CAREBOT is poised to revolutionize the way we approach healthcare and make medical care more accessible and efficient for patients around the world.
 
 ## Authors 
-@manya706
-@Rajlaxmisingh
-@avi-buckup
+[Manya Sharma](https://github.com/manya706)
+[Raj Laxmi Singh](https://github.com/Rajlaxmisingh)
+[Avi Mandavia](https://github.com/avi-buckup)
 
