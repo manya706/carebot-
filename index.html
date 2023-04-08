@@ -23,6 +23,15 @@
         <a href="#about">About</a>
         <a href="#services">Team</a>
         <a href="#contact">Contact</a>
+        <button class="btn" id="connect-button">Sign-up Today!</button>
+        <script>
+          
+          document
+            .getElementById("connect-button")
+            .addEventListener("click", (event) => {
+              window.location.assign("signup-login.html");
+            });
+        </script>
       </nav>
     </header>
     
@@ -42,19 +51,12 @@
           efficient for patients around the world.
         </p>
         <!-- <a href="#" class="btn">Connect Wallet</a> -->
-        <button class="btn" id="connect-button">Sign-up Today!</button>
-        <script>
-          document
-            .getElementById("connect-button")
-            .addEventListener("click", (event) => {
-              window.location.assign("signup-login.html");
-            });
-        </script>
+        
       </div>
-      <div class="home-img">
-        <img src="images/My project.png" alt="" />
-      </div>
+      
+
     </section>
+    
     <!-- comment -->
     <!-- <hr style="color: black;"> -->
     <hr />

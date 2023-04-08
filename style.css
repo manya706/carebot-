@@ -30,7 +30,7 @@ body {
 }
 
 section {
-  min-height: 100vh;
+  min-height: 70vh;
   /* padding: 10rem 9% 2rem; */
 }
 
@@ -193,14 +193,15 @@ section {
 
 .btn {
   display: inline-block;
-  padding: 1rem 2.8rem;
-  background: rgb(84, 173, 237);
+  padding: 1rem 2.0rem;
+  margin-left: 2rem;
+  background: rgb(169, 206, 232);
   border-radius: 4rem;
   box-shadow: 0 0 1rem var(--main-color);
   font-size: 1.6rem;
-  color: white;
+  color: rgb(8, 71, 120);
   letter-spacing: 0.3rem;
-  margin-top: 4rem;
+  /* margin-top: 2rem; */
   font-weight: 600;
   transition: 0.5s ease;
 }
