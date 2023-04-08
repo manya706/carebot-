@@ -194,8 +194,8 @@ section {
 .btn {
   display: inline-block;
   padding: 1rem 2.0rem;
-  margin-left: 2rem;
-  background: rgb(169, 206, 232);
+  margin-left: 2.5rem;
+  background: #b5e5ee;
   border-radius: 4rem;
   box-shadow: 0 0 1rem var(--main-color);
   font-size: 1.6rem;
