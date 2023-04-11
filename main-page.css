@@ -30,6 +30,7 @@ body {
 
 section {
   min-height: 70vh;
+  margin-top: 10rem;
   /* padding: 10rem 9% 2rem; */
 }
 
@@ -69,7 +70,7 @@ section {
 .navbar a.active {
   color: var(--main-color);
 }
-
+/* 
 #menu-icon {
   font-size: 3.6rem;
   color: var(--text-color);
@@ -90,7 +91,7 @@ section {
             backface-visibility: hidden;
     display: flex;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    /* position: relative; */
+    /* position: relative; 
   }
   .card:after {
     content: " ";
@@ -122,7 +123,12 @@ section {
     color: #69c6b8;
     pointer-events: auto;
   }
-  
+  .per{
+    margin-left: 5rem;
+    font-size: 3.5rem;
+    color: #0ef;
+    margin-top: 4rem;
+  }
   .iklan {
     position: fixed;
     bottom: 0;
@@ -138,7 +144,7 @@ section {
   }
   .iklan a {
     background-color: #ff4757;
-    color: white;
+    color: rgb(181, 35, 35);
     display: inline-block;
     padding: 10px 20px;
     border-radius: 3px;
@@ -157,19 +163,41 @@ section {
   }
   form .input-box span.details{
     display: block;
+    color: #0ef;
+    margin-left: 10rem;
+    font-size: 3rem;
     font-weight: 500;
     margin-bottom: 5px;
   }
   .user-details .input-box input{
+    /* margin-top: 10rem; 
     height: 45px;
-    width: 100%;
+    width: 50rem;
+    margin-left: 10rem;
     outline: none;
     font-size: 16px;
     border-radius: 5px;
     padding-left: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #130e0e;
     border-bottom-width: 2px;
     transition: all 0.3s ease;
+  } */
+  .symptoms{
+    height: 5rem;
+    margin-left: 10rem;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #130e0e;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+    color: #0ef;
+    width: 40rem;
+  }
+  .symptoms h2{
+    color: #0ef;
+    size: 20rem;
   }
   .user-details .input-box input:focus,
   .user-details .input-box input:valid{

@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="main-page.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/css/multi-select-tag.css">
   </head>
+  <script src="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/js/multi-select-tag.js"></script>
   <body>
     <!-- header design -->
     <header class="header">
@@ -21,9 +23,11 @@
         <a href="#contact">Profile</a>
       </nav>
     </header>
-    <form>
+    <section class="info">
+    
       <form>
-        <div class="user-details">
+        <h1 class="per">Enter Personal Details</h1>
+        <!-- <div class="user-details">
           <div class="input-box">
             <span class="details">Age</span>
             <input type="number" id="age" placeholder="Enter your age" required>
@@ -32,9 +36,8 @@
             <span class="details">Gender</span>
             <input type="text" id="gender" placeholder="Enter your gender" required>
           </div>
-          
-          <div class="input-box">
-            <span class="details">Symptoms</span>
+        </div> -->
+        <div class="symptoms">
           <select id="symptoms" name="symptoms" multiple> 
           <option value="itching">Itching</option>
           <option value="skin_rash">Skin Rash</option>
@@ -170,14 +173,18 @@
           <option value="yellow_crust_ooze">Yellow Crust Ooze</option>
           <option value="other">Other</option>
           </select><br><br>
-        </div>
-        </div>
+      </div>
+      
         <div class="button" width="20px" height="10px">
           <button type="submit">HOST</button>
         </div>
         <!-- <button type="button" onclick="addSymptom()">Add more symptoms</button> -->
         </form>
+      </section>
+    </body>
+    <script>
+      new MultiSelectTag('symptoms')  // id
+  </script>
+  <!-- <script src="main-page.js"></script> -->
 
-        </body>
-
-        </html>
+</html>
