@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>CareBot</title>
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}" />
   </head>
   <body>
     <!-- header design -->
@@ -23,7 +23,7 @@
         <a href="#about">About</a>
         <a href="#services">Team</a>
         <a href="#contact">Contact</a>
-        <button class="btn" id="connect-button">Sign-up Today!</button>
+        <a href="/login"><button class="btn" id="connect-button" >Sign-up Today!</button></a>
         <script>
           
           document
@@ -75,6 +75,7 @@
         </div>
         <div id="card-body">
           <div id="first-item">
+            <a href="/symp">
             <div class="card" id="card-1">
               <div class="card-title">SYMPTOM ANALYSIS</div>
               <div class="card-body">
@@ -89,6 +90,7 @@
                 />
               </div>
             </div>
+          </a>
           </div>
           <div id="second-item">
             <div class="card" id="card-2">
@@ -146,7 +148,7 @@
         <div class="services-box">
           <img
             style="width: 20%; border: 2px solid white; border-radius: 50%"
-            src="images/man.png"
+            src="{{ url_for('static',filename='images/man.png') }}"
             alt=""
           />
           <h3>Avi Mandavia</h3>
@@ -160,7 +162,7 @@
         <div class="services-box">
           <img
             style="width: 20%; border: 2px solid white; border-radius: 50%"
-            src="images/woman.png"
+            src="{{ url_for('static',filename='images/woman.png') }}"
             alt=""
           />
           <h3>Manya Sharma</h3>
@@ -174,7 +176,7 @@
         <div class="services-box">
           <img
             style="width: 20%; border: 2px solid white; border-radius: 50%"
-            src="images/woman.png"
+            src="{{ url_for('static',filename='images/woman.png') }}"
             alt=""
           />
           <h3>Raj Laxmi Singh</h3>
@@ -239,5 +241,5 @@
 
   </body>
   
-  <script src="script.js"></script>
+  <script src="{{ url_for('static',filename='script.js') }}"></script>
 </html>
