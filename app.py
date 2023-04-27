@@ -24,12 +24,14 @@ def hello_world():
 
 @app.route('/symp', methods=['GET', 'POST'])
 def products():
-    multiselect = request.form.getlist('symptoms')
-    listToStr = ','.join(map(str, multiselect))
-    res = predictDisease(listToStr)
-    return render_template('symptom.html', res=res)
+    if(request.method=="POST"):
+        multiselect = request.form.getlist('symptoms')
+        listToStr = ','.join(map(str, multiselect))
+        res = predictDisease(listToStr)
+        return render_template('symptom.html', res=res)
+    return render_template('symptom.html')
 
-@app.route('/login')
+@app.route('/login')    
 def login():
     return render_template('signup-login.html')
 
